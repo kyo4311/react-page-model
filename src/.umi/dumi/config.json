@@ -1,0 +1,34 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "React Page Model",
+          "meta": {
+            "order": null
+          }
+        },
+        {
+          "title": "Example",
+          "path": "/example",
+          "meta": {},
+          "children": []
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "react-page-model",
+  "mode": "doc",
+  "repository": {
+    "branch": "master"
+  },
+  "theme": {}
+}
