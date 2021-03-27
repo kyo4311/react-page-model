@@ -3,11 +3,7 @@ import * as React from "react";
 const PageModelContext = React.createContext({});
 
 export function usePageModel() {
-  const c = React.useContext(PageModelContext);
-
-  console.log(c);
-
-  return c;
+  return React.useContext(PageModelContext);
 }
 
 export function withPageModel(model: any) {
